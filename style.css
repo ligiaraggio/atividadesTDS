@@ -29,7 +29,7 @@ body{
 ul {
     position: absolute;
     top: 5px;
-    left: 34%;
+    left: 50%;
     list-style: none;
     display: flex;
     gap: 70px;
@@ -51,7 +51,15 @@ ul {
 .tecDiv{
     width: 100%;
     height: 600px;
-    background: rgb(189, 180, 196);
+    background-image: url('../javascript-html-css/pexels-danny-meneses-943096.jpg');
+    background-size: cover;
+    color: #ffff;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .contactDiv{
     width: 100%;
@@ -64,6 +72,7 @@ ul {
     gap: 25px;
     flex-wrap: wrap;
     padding: 40px;
+    
 }
 
 .leftContact{
@@ -77,5 +86,16 @@ ul {
     width: 600px;
     height: 500px;
     min-width: 300px;
-    background-color: lightgreen;
+    background-color: rgb(157, 226, 157);
+}
+
+.filhas{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: lightgray;
+    color: black;
 }
