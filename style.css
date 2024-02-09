@@ -42,6 +42,7 @@ ul {
     width: 100%;
     height: 600px;
     background: rgb(201, 184, 184);
+    
 }
 .perfil02{
     width: 100%;
@@ -51,7 +52,7 @@ ul {
 .tecDiv{
     width: 100%;
     height: 600px;
-    background-image: url('../javascript-html-css/pexels-danny-meneses-943096.jpg');
+    background-image: url('../javascrip-html-css/pexels-luis-gomes-546819.jpg');
     background-size: cover;
     color: #ffff;
     padding: 20px;
@@ -98,4 +99,12 @@ ul {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     background-color: lightgray;
     color: black;
+    width: 200px;
+    opacity: 0.5;
+    transition: opacity 0.5s ease-in-out;
+      
+}
+
+.filhas:hover {
+    opacity: 2;
 }
